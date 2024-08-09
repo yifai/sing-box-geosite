@@ -30,7 +30,7 @@ jobs:
         pip install pandas requests pyyaml
     - name: Download content
       run: |
-        URL="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt"
+        URL="https://raw.githubusercontent.com/yeefaye/Clash/main/Reject.yaml"
         OUTPUT_FILE="./rule/adservers.txt"
 
         curl -L $URL -o $OUTPUT_FILE
@@ -43,7 +43,7 @@ jobs:
         fi
     - name: Convert AdGuard DNS Filter to sing-box rule set
       run: |
-        sing-box rule-set convert --type adguard --output ./rule/adservers.srs ./rule/adservers.txt
+        sing-box rule-set convert --type adguard --output ./rule/Reject.srs ./rule/Reject.json
     - name: Run script
       run: python ../main.py
       working-directory: ./rule/
