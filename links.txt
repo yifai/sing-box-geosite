@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/yeefaye/Clash/main/Reject.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/Reject.yaml
 https://raw.githubusercontent.com/yifai/Clash/main/China.yaml
 https://raw.githubusercontent.com/yifai/Clash/main/Apple.yaml
 https://raw.githubusercontent.com/yifai/Clash/main/Google.yaml
