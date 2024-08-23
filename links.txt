@@ -1,1 +1,8 @@
 https://raw.githubusercontent.com/yeefaye/Clash/main/Reject.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/China.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/Apple.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/Google.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/Microsoft.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/PayPal.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/Proxylit.yaml
+https://raw.githubusercontent.com/yifai/Clash/main/AppleUpdate.yaml
