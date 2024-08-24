@@ -5,13 +5,23 @@
 仓库 Settings ----> Actions ----> General ----> Workflow permissions ----> Read and write permissions 勾选上
 
 规则集源文件写法eg:
-
-```json
+## json格式规则集， "format": "source"
+```
 {
   "tag": "geosite-wechat",
   "type": "remote",
   "format": "source",
   "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/wechat.json",
+  "download_detour": "auto"
+}
+```
+## srs格式规则 "format": "binary"
+```
+{
+  "tag": "geosite-wechat",
+  "type": "remote",
+  "format": "binary",
+  "url": "https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/wechat.srs",
   "download_detour": "auto"
 }
 ```
